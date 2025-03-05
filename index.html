@@ -14,6 +14,9 @@
             margin-top: 20px;
             font-size: 24px;
             font-weight: bold;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
         button {
             padding: 10px 20px;
@@ -23,14 +26,28 @@
     </style>
 </head>
 <body>
-    <h1>Draw a Random Slip</h1>
+    <h1>Draw a Random Travel Complaint</h1>
     <button onclick="drawSlip()">Pick a Slip</button>
     <p id="result"></p>
 
     <script>
         const slips = [
-            "Slip 1", "Slip 2", "Slip 3", "Slip 4", "Slip 5", 
-            "Slip 6", "Slip 7", "Slip 8", "Slip 9", "Slip 10"
+            "It’s lazy of the local shopkeepers to close in the afternoons. I often needed to buy things during ‘siesta’ time – this should be banned.",
+            "We booked a trip to a water park but no-one told us we had to bring our swimsuits and towels.",
+            "I was bitten by a mosquito. No one said they could bite.",
+            "The brochure stated: ‘No hairdressers at the hotel’. We’re trainee hairdressers – will we be OK staying there?",
+            "There are too many Spanish people. The receptionist speaks Spanish. The food is Spanish. Too many foreigners now live abroad.",
+            "I compared the size of our one-bedroom apartment to our friends’ three-bedroom apartment and ours was significantly smaller.",
+            "It took us nine hours to fly home from Jamaica to England. It only took the Americans three hours to get home.",
+            "No-one told us there would be fish in the sea. The children were startled.",
+            "We had to queue outside with no air conditioning.",
+            "The beach was too sandy.",
+            "The ice in my drink melted too quickly in the heat. The hotel needs colder ice.",
+            "The locals spoke their own language, and it made us feel excluded.",
+            "Topless sunbathing on the beach should be banned. The holiday was ruined, as my husband spent all day looking at other women.",
+            "We bought ‘Ray-Ban’ sunglasses for five Euros from a street trader, only to find out they were fake.",
+            "We found the sand was not like the sand in the brochure. Your brochure shows the sand as yellow but it was white.",
+            "On my holiday to Goa in India, I was disgusted to find that almost every restaurant served curry. I don’t like spicy food at all."
         ];
 
         function drawSlip() {
@@ -40,3 +57,4 @@
     </script>
 </body>
 </html>
+
